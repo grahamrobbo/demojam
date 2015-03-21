@@ -25,6 +25,24 @@ sap.ui.controller('my.simple.app.view.App', {
                 description: "Payroll data validations",
                 errors: 20,
                 cityId: "A1"
+            }],
+            itemsSyd: [{
+                description: "Master data quality check",
+                errors: 4,
+                cityId: "A1"
+            }, {
+                description: "Pre payroll process",
+                errors: 8,
+                cityId: "A1"
+            }, {
+                description: "Payroll data validations",
+                errors: 20,
+                cityId: "A1"
+            }],
+            itemsMel: [{
+                description: "Errors from payroll run",
+                errors: 0,
+                cityId: "A2"
             }]
         }));
     },

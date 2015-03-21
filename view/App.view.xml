@@ -22,7 +22,7 @@
                     </IconTabFilter>
                     <IconTabFilter binding="{/cities/0}" text="{name} ({id})" icon="sap-icon://group" design="Horizontal">
                         <content>
-                            <FlexBox alignItems="Start" justifyContent="Center" items="{/items}">
+                            <FlexBox alignItems="Start" justifyContent="Center" items="{/itemsSyd}">
                                 <StandardTile title="{description}" icon="sap-icon://process" number="{errors}" numberUnit="ERRORS" info="{
                                                     path: 'errors',
                                                     formatter: '.formatter.info'     
@@ -35,7 +35,7 @@
                     </IconTabFilter>
                     <IconTabFilter binding="{/cities/1}" text="{name} ({id})" icon="sap-icon://group" design="Horizontal">
                         <content>
-                            <FlexBox alignItems="Start" justifyContent="Center" items="{/items}">
+                            <FlexBox alignItems="Start" justifyContent="Center" items="{/itemsMel}">
                                 <StandardTile title="{description}" icon="sap-icon://process" number="{errors}" numberUnit="ERRORS" info="{
                                                     path: 'errors',
                                                     formatter: '.formatter.info'     
