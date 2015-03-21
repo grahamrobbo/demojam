@@ -5,18 +5,21 @@
     <title>DemoJam my.simple.app App</title>
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
     <meta charset="UTF-8">
-    <script id='sap-ui-bootstrap' type='text/javascript' src='https://sapui5.ap1.hana.ondemand.com/sdk/resources/sap-ui-core.js' data-sap-ui-theme='sap_bluecrystal' data-sap-ui-libs='sap.m' data-sap-ui-resourceroots='{"my.simple.app": "./","samples.components.pinky": "./pinky","samples.components.brain": "./brain"}' data-sap-ui-preload="async" data-sap-ui-xx-componentPreload="async" data-sap-ui-xx-bindingSyntax='complex' data-sap-ui-rootComponent="my.simple.app" data-sap-ui-xx-rootComponentNode="root">
-    </script>
-    <script>
-    jQuery.sap.declare("local.formatter");
-    local.formatter = {
-        info: function(errors) {
-            return errors ? "Errors" : "All OK";
-        },
-        infoState: function(errors) {
-            return errors ? "Error" : "Success";
-        }
-    };
+    <script id='sap-ui-bootstrap'
+    	type='text/javascript'
+    	src='https://sapui5.ap1.hana.ondemand.com/sdk/resources/sap-ui-core.js'
+    	data-sap-ui-theme='sap_bluecrystal'
+    	data-sap-ui-libs='sap.m'
+    	data-sap-ui-resourceroots='{
+    		"my.simple.app": "./",
+    		"samples.components.pinky": "./pinky",
+    		"samples.components.brain": "./brain"
+    	}'
+    	data-sap-ui-preload="async"
+    	data-sap-ui-xx-componentPreload="async"
+    	data-sap-ui-xx-bindingSyntax='complex'
+    	data-sap-ui-rootComponent="my.simple.app"
+    	data-sap-ui-xx-rootComponentNode="root">
     </script>
 </head>
 

@@ -27,5 +27,15 @@ sap.ui.controller('my.simple.app.view.App', {
                 cityId: "A1"
             }]
         }));
+    },
+
+    formatter: {
+        info: function(errors) {
+            return errors ? "Errors" : "All OK";
+        },
+        infoState: function(errors) {
+            return errors ? "Error" : "Success";
+        }
     }
+
 });
