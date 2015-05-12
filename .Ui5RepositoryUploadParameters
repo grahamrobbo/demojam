@@ -2,4 +2,4 @@ SAPUI5ApplicationName=ZDEMOJAM
 SAPUI5ApplicationPackage=$TMP
 SAPUI5ApplicationDescription=Simple SAPUI5 App
 AcceptUnixStyleEol=True
-DeltaMode=False
+DeltaMode=True
