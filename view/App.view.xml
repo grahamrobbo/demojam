@@ -1,6 +1,6 @@
 <mvc:View controllerName="my.simple.app.view.App" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m">
     <App>
-        <Page title="DemoJam - ABAP Rocks! V1.3">
+        <Page title="DemoJam - ABAP Rocks! V1.4">
             <IconTabBar>
                 <items>
                     <IconTabFilter text="All payroll areas" icon="sap-icon://group" design="Horizontal">
