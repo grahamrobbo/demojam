@@ -15,8 +15,8 @@
                                                 }" />
                             </FlexBox>
                             <FlexBox alignItems="Start" justifyContent="SpaceBetween">
-<!--                                 <core:ComponentContainer id="pinky" name="samples.components.pinky" />
-                                <core:ComponentContainer id="brain" name="samples.components.brain" /> -->
+                                <core:ComponentContainer id="pinky" name="samples.components.pinky" />
+                                <core:ComponentContainer id="brain" name="samples.components.brain" />
                             </FlexBox>
                         </content>
                     </IconTabFilter>
