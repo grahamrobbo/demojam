@@ -44,6 +44,5 @@ sap.ui.core.UIComponent.extend('my.simple.app.Component', {
                 that.setAggregation("rootControl", that.createContent());
             }, oPreprocessors);
         });
-
     }
 });
