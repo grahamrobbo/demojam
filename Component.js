@@ -14,6 +14,9 @@ sap.ui.core.UIComponent.extend('my.simple.app.Component', {
         var that = this;
         var oPreprocessors = {};
 
+        jQuery.sap.registerModulePath('samples.components.pinky', './pinky/');
+        jQuery.sap.registerModulePath('samples.components.brain', './brain/');
+
         // when auto prefixing is enabled we add the prefix
         if (this.getAutoPrefixId()) {
             oPreprocessors.id = function(sId) {
