@@ -14,11 +14,11 @@
                                                     formatter: '.formatter.infoState'
                                                 }" />
                             </FlexBox>
-                           <FlexBox alignItems="Center" justifyContent="SpaceBetween">
+<!--                            <FlexBox alignItems="Center" justifyContent="SpaceBetween">
                                  <core:ComponentContainer id="pinky" name="samples.components.pinky" />
                                 <core:HTML content='&lt;center style="font-size:5em"&gt;Narf!!&lt;/center&gt;' />
                                 <core:ComponentContainer id="brain" name="samples.components.brain" />
-                            </FlexBox>
+                            </FlexBox> -->
                         </content>
                     </IconTabFilter>
                     <IconTabFilter binding="{/cities/0}" text="{name} ({id})" icon="sap-icon://group" design="Horizontal">
