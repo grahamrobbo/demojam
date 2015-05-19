@@ -1,0 +1,6 @@
+[submodule "pinky"]
+	path = pinky
+	url = https://github.com/grahamrobbo/pinky
+[submodule "brain"]
+	path = brain
+	url = https://github.com/grahamrobbo/brain
