@@ -16,7 +16,7 @@
                             </FlexBox>
                            <FlexBox alignItems="Center" justifyContent="SpaceBetween">
                                  <core:ComponentContainer id="pinky" name="samples.components.pinky" />
-                                <core:HTML content='&lt;center style="font-size:5em"&gt;ABAP Rocks!&lt;/center&gt;' />
+                                <core:HTML content='&lt;center style="font-size:5em"&gt;ABAP Rocks!!&lt;/center&gt;' />
                                 <core:ComponentContainer id="brain" name="samples.components.brain" />
                             </FlexBox>
                         </content>
